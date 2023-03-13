@@ -55,7 +55,7 @@ test:
 
 about:
   home: http://keii.ue.wroc.pl/clusterSim
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: "Distance measures (GDM1, GDM2,\tSokal-Michener, Bray-Curtis, for symbolic interval-valued data), cluster quality indices (Calinski-Harabasz, Baker-Hubert, Hubert-Levine, Silhouette, Krzanowski-Lai, Hartigan, Gap,\tDavies-Bouldin),\tdata normalization formulas (metric data, interval-valued symbolic data), data\
     \ generation (typical and non-typical data), HINoV method,\treplication analysis, linear ordering methods, spectral clustering, agreement indices between two partitions, plot functions (for categorical and symbolic interval-valued data).  (MILLIGAN, G.W., COOPER, M.C. (1985) <doi:10.1007/BF02294245>,  HUBERT, L., ARABIE,\
     \ P. (1985) <doi:10.1007%2FBF01908075>,  RAND, W.M. (1971) <doi:10.1080/01621459.1971.10482356>,  JAJUGA, K., WALESIAK, M. (2000) <doi:10.1007/978-3-642-57280-7_11>,  MILLIGAN, G.W., COOPER, M.C. (1988) <doi:10.1007/BF01897163>,  JAJUGA, K., WALESIAK, M., BAK, A. (2003) <doi:10.1007/978-3-642-55721-7_12>,  DAVIES, D.L.,\
