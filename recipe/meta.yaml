@@ -1,4 +1,4 @@
-{% set version = "0.50-1" %}
+{% set version = "0.51-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clusterSim_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clusterSim/clusterSim_{{ version }}.tar.gz
-  sha256: 8a91671775362d51460e539d146ebd43b50be26edaa2fd2ed5bf259a70b89738
+  sha256: 3ebe4c2da59a27058bace90992cee016068632697f82527a286dab775380acd9
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
