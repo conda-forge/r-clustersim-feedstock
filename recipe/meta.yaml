@@ -1,6 +1,5 @@
 {% set version = "0.51-4" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-clustersim
@@ -13,8 +12,7 @@ source:
   sha256: 764e7b89a4d71e394ba8baff409396e8a2229a199e7a7975ebf5d8def98272af
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,7 +40,6 @@ requirements:
     - r-rgl
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-ade4
     - r-cluster
     - r-e1071
