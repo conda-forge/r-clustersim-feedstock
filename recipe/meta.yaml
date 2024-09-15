@@ -1,4 +1,4 @@
-{% set version = "0.51-4" %}
+{% set version = "0.51-5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clusterSim_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clusterSim/clusterSim_{{ version }}.tar.gz
-  sha256: 764e7b89a4d71e394ba8baff409396e8a2229a199e7a7975ebf5d8def98272af
+  sha256: 9d5bfabf4a536990be9c6e2df0842171256bbb51012542f7752fd6487d1378d2
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
